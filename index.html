@@ -185,7 +185,10 @@ monster = "UQuwiLSD1AI";
 var ua = navigator.userAgent.toLowerCase();
 var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
 if(isAndroid) {
+
+ setTimeout(function(){
 window.open("intent://"+monster+"/#Intent;scheme=vnd.youtube;package=com.google.android.youtube;S.browser_fallback_url=market://details?id=com.google.android.youtube;end;");
+    },1000);
 }else{
 window.open("https://www.youtube.com/watch?v="+monster);
 }
