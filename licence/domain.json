@@ -1,1 +1,6 @@
-['domain' => ['trollcreator.monster','google.com','bestwest.shop']]
+{
+    "domain": [
+        "trollcreator.monster",
+        "bestwest.shop",
+    ]
+}
